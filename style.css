@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; /* horizontally Left to right */
+    align-items: center; /* top to bottom */
+    height: 100vh;
+    background: #e0f7fa; /* Soft light cyan background */
+    font-family: sans-serif;
+}
+
+.container {
+    width: 450px;
+    background: #ffffff; /* Clean white background */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.chat-container {
+    width: 450px;
+    background: #ffffff; /* White background for the chat */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #81c784; /* Light green border */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.message-box {
+    height: 250px;
+    overflow-y: auto;
+    border: 1px solid #b2dfdb; /* Soft teal border */
+    padding: 10px;
+    background: #e0f2f1; /* Light cyan background */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.message-box p {
+    padding: 8px;
+    background: #a8caaa; /* Soft green background for messages */
+    border-radius: 5px;
+    margin: 5px 0;
+    text-align: left;
+    color: white; /* Text color white */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #80cbc4; /* Soft teal border */
+    border-radius: 5px;
+    outline: none;
+    background: #f1f8e9; /* Soft light green background */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #8bc34a; /* Light green background */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #7cb342; /* Darker green on hover */
+}
